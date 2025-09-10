@@ -1,0 +1,7 @@
+.sponser-page {
+    background-color: #2f0353;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.home-page {
+    background-color: #2f0353;
+    height: 100vh;
+}
+
+.hero-sec {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./assets/gradient-initio.png");
+    object-fit: contain;
+    align-items: center;
+}
