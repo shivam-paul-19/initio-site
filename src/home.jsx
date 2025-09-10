@@ -12,6 +12,8 @@ function Home() {
                     <h1 className="text-3xl">The Fest You'll Remember Forever</h1>
                 </div>
                 <div style={{height: "50px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
+
+                {/* This element you need to make 👇🏻 */}
                 <Events />
             </div>
         </>
