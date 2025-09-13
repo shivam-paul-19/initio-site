@@ -3,6 +3,18 @@
     height: 100vh;
 }
 
+.main-heading {
+    font-family: "DM Serif Text", serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main-tag {
+    font-family: "Bodoni Moda", serif;
+    color: white;
+    font-weight: 700;
+}
+
 .hero-sec {
     height: 90%;
     width: 100%;
