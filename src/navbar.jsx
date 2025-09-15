@@ -36,7 +36,7 @@ function NavBar({setPage}) {
             changePages(1);
           }}
         >
-          Sponsers
+          Sponsors
         </div>
         <div
           className="nav-bar-item"

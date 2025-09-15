@@ -29,7 +29,7 @@ function Home() {
                     </h1>
                     <h1 className="text-3xl main-tag">
                         <TextAnimate animation="slideUp" by="character" duration="0.5">
-                        The Fest You'll Remember Forever
+                            The Fest You'll Remember Forever
                         </TextAnimate>
                     </h1>
                     <br />
