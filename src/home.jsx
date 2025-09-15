@@ -43,13 +43,7 @@ function Home() {
                             <AlertDialogHeader>
                             <AlertDialogTitle>For VIPS students</AlertDialogTitle>
                             <AlertDialogDescription>
-                                {/* Follow these steps to grab your passes!
-                                <hr /><br />
-                                <ol>
-                                    <li>1. Falana</li>
-                                    <li>2. Thimkana</li>
-                                    <li>3. Falana Thimkana</li>
-                                </ol> */}
+                                Kindly pay in <b>cash</b> at the <b>Initio kiosk in VIPS-TC</b> to collect your participation form and ticket.
                             </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
