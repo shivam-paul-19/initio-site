@@ -1,0 +1,17 @@
+.contact-page {
+    background-color: #2f0353;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    color: white;
+    font-family: "DM Serif Text", serif;
+}
+
+.contact-content {
+    margin: 30px 50px;
+    color: white;
+}

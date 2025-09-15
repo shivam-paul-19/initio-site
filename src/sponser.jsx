@@ -1,12 +1,17 @@
 import "./sponser.css";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 function SponserPage() {
     return (
         <>
-            <div style={{height: "50px"}}>{/* for spacing only */}</div>
+            <div style={{height: "60px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
             <div className="sponser-page">
                 <div>
-                    <h1 className="text-2xl" style={{ textAlign: "center", marginBottom: "20px" }}>Our Sponsors</h1>      
+                    <h1 className="text-3xl sponser-heading" style={{ textAlign: "center", marginBottom: "20px" }}>
+                        <TextAnimate animation="blurInUp" by="character" duration="0.5">
+                            Our Sponsors
+                        </TextAnimate>
+                    </h1>      
                     <div className="sponser-grid" style={{
                         display: "grid",
                         gridTemplateColumns: "repeat(4, minmax(0, 1fr))",

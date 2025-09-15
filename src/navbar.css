@@ -3,7 +3,14 @@
     width: 100vw;
     background-color: black;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
+    z-index: 1;
+}
+
+.nav-bar-items-inner {
+    background-color: antiquewhite;
 }
 
 .nav-bar-items {
@@ -21,4 +28,30 @@
 
 .logo {
     font-style: italic;
+    color: white;
+    position: absolute;
+    left: 15px;
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .nav-bar-items {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-bar-items {
+        width: 70%;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-bar-items {
+        width: 95%;
+    }
 }

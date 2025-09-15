@@ -7,6 +7,7 @@
     font-family: "DM Serif Text", serif;
     font-weight: 500;
     color: white;
+    word-break: keep-all;
 }
 
 .main-tag {
@@ -16,12 +17,79 @@
 }
 
 .hero-sec {
-    height: 90%;
+    height: 100%;
     width: 100%;
+    background-image: url("./assets/hero-bg.JPG");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.hero-filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("./assets/gradient-initio.png");
-    object-fit: contain;
     align-items: center;
+    background-color: rgba(0, 0, 0, .45);
+    backdrop-filter: blur(4px);
+}
+
+.hero-sec-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pass-but {
+    background-color: white;
+}
+
+.grab {
+    color: white;
+    font-style: italic;
+}
+
+@media (max-width: 550px) {
+    .hero-sec-inner {
+        width: 80%;
+    }
+
+    .main-heading {
+        font-size: 100px;
+    }
+
+    .main-tag {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .hero-sec-inner {
+        width: 80%;
+    }
+
+    .main-heading {
+        font-size: 80px;
+    }
+
+    .main-tag {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-sec-inner {
+        width: 80%;
+    }
+
+    .main-heading {
+        font-size: 60px;
+    }
+
+    .main-tag {
+        font-size: 10px;
+    }
 }

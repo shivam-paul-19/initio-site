@@ -41,6 +41,10 @@
     opacity: 0.9;
 }
 
+.event-heading {
+    font-family: "DM Serif Text", serif;
+}
+
 .cta-wrap { margin-top: 8px; }
 
 /* Responsive layout */

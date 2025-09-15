@@ -1,40 +1,61 @@
+import { TextAnimate } from "@/components/magicui/text-animate";
+import { Button } from "@/components/ui/button";
 import "./events.css";
 
 function Events() {
     return (
         <>
             <div className="event-section">
-                <h1 className="text-3xl" style={{ color: "#ffcc66", fontWeight: 700 }}>Your Epic Journey Awaits</h1>
+                <h1 className="text-3xl event-heading">
+                    <TextAnimate animation="slideUp" by="word" duration="0.5">
+                        Your Epic Journey Awaits
+                    </TextAnimate>
+                </h1>
                 <div className="event-grid">
                     <div className="event-card gradient-a">
                         <div>
                             <div className="event-title">Music Concerts</div>
                             <div className="event-subtitle">Feel the bass drop, lose yourself in rhythm</div>
                         </div>
+                    <a href="" target="_blank">
+                        <Button>Know more</Button>
+                    </a>
                     </div>
                     <div className="event-card gradient-b">
                         <div>
                             <div className="event-title">Dance Competitions</div>
                             <div className="event-subtitle">Where movement becomes magic</div>
                         </div>
+                        <a href="" target="_blank">
+                            <Button>Know more</Button>
+                        </a>
                     </div>
                     <div className="event-card gradient-c">
                         <div>
                             <div className="event-title">Drama & Theater</div>
                             <div className="event-subtitle">Stories that touch the soul</div>
                         </div>
+                        <a href="" target="_blank">
+                            <Button>Know more</Button>
+                        </a>
                     </div>
                     <div className="event-card gradient-d">
                         <div>
                             <div className="event-title">Fashion Shows</div>
                             <div className="event-subtitle">Style meets substance on the runway</div>
                         </div>
+                        <a href="" target="_blank">
+                            <Button>Know more</Button>
+                        </a>
                     </div>
                     <div className="event-card gradient-e">
                         <div>
                             <div className="event-title">Star Night</div>
                             <div className="event-subtitle">The culmination of all dreams</div>
                         </div>
+                        <a href="" target="_blank">
+                            <Button>Know more</Button>
+                        </a>
                     </div>
                 </div>
                 <div className="cta-wrap">

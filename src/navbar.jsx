@@ -1,5 +1,6 @@
 import "./navbar.css";
 import { useState } from "react";
+import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
 
 function NavBar({setPage}) {
   let [active, setActive] = useState([true, false, false, false]);
@@ -17,8 +18,8 @@ function NavBar({setPage}) {
 
   return (
     <div className="nav-bar">
+      <div className="nav-bar-item logo"><AnimatedGradientText colorFrom="#9f1239">Initio'25</AnimatedGradientText></div>
       <div className="nav-bar-items">
-        <div className="nav-bar-item logo">Initio'25</div>
         <div
           className="nav-bar-item"
           style={active[0] ? activeStyle : null}
