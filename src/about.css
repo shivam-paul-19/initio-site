@@ -8,10 +8,41 @@
 
 .about-heading {
     font-family: "DM Serif Text", serif;
-    color: white;
+    color: #eab308;
 }
 
 .about-content {
-    margin: 30px 50px;
+    font-size: 20px;
+    margin: 30px 200px;
     color: white;
+}
+
+.about-img {
+    height: 50vh;
+    width: 50%;
+    background-image: url("./assets/about-bg.JPG");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+@media (max-width: 1000px) {
+    .about-img {
+        width: 60%;
+    }
+
+    .about-content {
+        margin: 30px 100px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-img {
+        width: 80%;
+    }
+
+    .about-content {
+        margin: 30px 60px;
+    }
 }

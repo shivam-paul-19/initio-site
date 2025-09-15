@@ -7,11 +7,16 @@
 }
 
 .contact-heading {
-    color: white;
+    color: #eab308;
     font-family: "DM Serif Text", serif;
 }
 
 .contact-content {
-    margin: 30px 50px;
+    margin: 10px 50px;
     color: white;
+}
+
+.contact-desig {
+    font-family: "Bodoni Moda", serif;
+    font-size: 25px;
 }
