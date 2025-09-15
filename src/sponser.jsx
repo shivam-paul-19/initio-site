@@ -2,6 +2,21 @@ import "./sponser.css";
 import { TextAnimate } from "@/components/magicui/text-animate";
 
 function SponserPage() {
+    const logoMap = import.meta.glob("@/assets/*", { eager: true, as: "url" });
+    const sponsors = [
+        { name: "Honda", file: "honda.png" },
+        { name: "Ayur Herbals", file: "ayur-herbals.png" },
+        { name: "Decathlon", file: "decathlon.png" },
+        { name: "RED FM 93.5", file: "red-fm-93-5.png" },
+        { name: "Dainik Jagran", file: "dainik-jagran.png" },
+        { name: "Realme", file: "realme.png" },
+        { name: "Hindustan Times", file: "hindustan-times.png" },
+        { name: "Del Monte", file: "del-monte.png" },
+        { name: "Punjab & Sind Bank", file: "punjab-and-sind-bank.png" },
+        { name: "Fresca", file: "fresca.png" },
+        { name: "The Indian Express", file: "indian-express.png" }
+    ];
+    const resolveLogoUrl = (entry) => entry.url ?? logoMap[`/src/assets/${entry.file}`];
     return (
         <>
             <div style={{height: "60px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
@@ -12,21 +27,11 @@ function SponserPage() {
                             Our Sponsors
                         </TextAnimate>
                     </h1>      
-                    <div className="sponser-grid" style={{
-                        display: "grid",
-                        gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
-                        gap: "16px",
-                        width: "980px"
-                    }}>
-                        {Array.from({ length: 12 }).map((_, idx) => (
-                            <div key={idx} style={{
-                                height: "110px",
-                                borderRadius: "12px",
-                                background: "rgba(255,255,255,0.08)",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center"
-                            }}>Logo</div>
+                    <div className="sponser-grid">
+                        {sponsors.map((s) => (
+                            <div key={s.name} className="sponser-card">
+                                <img src={resolveLogoUrl(s)} alt={s.name} loading="lazy" />
+                            </div>
                         ))}
                     </div>
                 </div>
