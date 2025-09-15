@@ -8,6 +8,7 @@
 
 .sponser-heading {
     font-family: "DM Serif Text", serif;
+    color: #eab308;
 }
 
 /* Responsive grid container */
@@ -31,6 +32,18 @@
 @media (min-width: 900px) {
     .sponser-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 550px) {
+    .sponser-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .sponser-heading {
+        font-size: 30px;
     }
 }
 

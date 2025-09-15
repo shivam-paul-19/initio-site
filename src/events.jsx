@@ -17,54 +17,54 @@ function Events() {
                             <div className="event-title">Music Concerts</div>
                             <div className="event-subtitle">Feel the bass drop, lose yourself in rhythm</div>
                         </div>
-                    <a href="" target="_blank">
+                    {/* <a href="" target="_blank">
                         <Button>Know more</Button>
-                    </a>
+                    </a> */}
                     </div>
                     <div className="event-card gradient-b">
                         <div>
                             <div className="event-title">Dance Competitions</div>
                             <div className="event-subtitle">Where movement becomes magic</div>
                         </div>
-                        <a href="" target="_blank">
+                        {/* <a href="" target="_blank">
                             <Button>Know more</Button>
-                        </a>
+                        </a> */}
                     </div>
                     <div className="event-card gradient-c">
                         <div>
                             <div className="event-title">Drama & Theater</div>
                             <div className="event-subtitle">Stories that touch the soul</div>
                         </div>
-                        <a href="" target="_blank">
+                        {/* <a href="" target="_blank">
                             <Button>Know more</Button>
-                        </a>
+                        </a> */}
                     </div>
                     <div className="event-card gradient-d">
                         <div>
                             <div className="event-title">Fashion Shows</div>
                             <div className="event-subtitle">Style meets substance on the runway</div>
                         </div>
-                        <a href="" target="_blank">
+                        {/* <a href="" target="_blank">
                             <Button>Know more</Button>
-                        </a>
+                        </a> */}
                     </div>
                     <div className="event-card gradient-e">
                         <div>
                             <div className="event-title">Star Night</div>
                             <div className="event-subtitle">The culmination of all dreams</div>
                         </div>
-                        <a href="" target="_blank">
+                        {/* <a href="" target="_blank">
                             <Button>Know more</Button>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className="cta-wrap">
-                    <button className="px-6 py-3 rounded-full text-white"
+                    {/* <button className="px-6 py-3 rounded-full text-white"
                         style={{
                             background: "linear-gradient(90deg,#22a6f2,#ff63c3)",
                             boxShadow: "0 8px 24px rgba(77, 171, 245, 0.35)",
                         }}
-                    >Explore All Events</button>
+                    >Explore All Events</button> */}
                 </div>
             </div>
         </>

@@ -20,8 +20,7 @@ export default function Footer() {
         >
           <Instagram className="text-white" />
         </a>
-
-        <a
+{/*   <a
           href="https://youtube.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -37,7 +36,7 @@ export default function Footer() {
           className="bg-green-600 p-3 rounded-full hover:scale-110 transition"
         >
           <WhatsApp className="text-white" />
-        </a>
+        </a> */}
       </div>
 
       {/* Divider */}

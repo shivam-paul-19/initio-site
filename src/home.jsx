@@ -43,12 +43,20 @@ function Home() {
                             <AlertDialogHeader>
                             <AlertDialogTitle>For VIPS students</AlertDialogTitle>
                             <AlertDialogDescription>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, ipsam. Excepturi ullam quis cupiditate, cumque suscipit tempora recusandae corrupti reiciendis accusamus omnis quibusdam ea numquam doloremque, maxime iusto quisquam. Ipsam.
+                                {/* Follow these steps to grab your passes!
+                                <hr /><br />
+                                <ol>
+                                    <li>1. Falana</li>
+                                    <li>2. Thimkana</li>
+                                    <li>3. Falana Thimkana</li>
+                                </ol> */}
                             </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
                                 <a href="https://forms.gle/wdjm8zf6jwfQSKn47" target="_blank"><Button>Paid</Button></a>
-                            <AlertDialogCancel className="alert-close">Close</AlertDialogCancel>
+                            <AlertDialogCancel className="alert-close">
+                                    Close
+                                </AlertDialogCancel>
                             </AlertDialogFooter>
                         </AlertDialogContent>
                     </AlertDialog>

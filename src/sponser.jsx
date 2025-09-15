@@ -22,9 +22,9 @@ function SponserPage() {
             <div style={{height: "60px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
             <div className="sponser-page">
                 <div>
-                    <h1 className="text-3xl sponser-heading" style={{ textAlign: "center", marginBottom: "20px" }}>
+                    <h1 className="text-6xl sponser-heading" style={{ textAlign: "center", marginBottom: "20px" }}>
                         <TextAnimate animation="blurInUp" by="character" duration="0.5">
-                            Our Sponsors
+                            Our Past Sponsors
                         </TextAnimate>
                     </h1>      
                     <div className="sponser-grid">
