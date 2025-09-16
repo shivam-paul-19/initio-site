@@ -1,6 +1,8 @@
 import "./home.css";
 import "./assets/gradient-initio.png";
 
+import CalendarTodayRoundedIcon from '@mui/icons-material/CalendarTodayRounded';
+
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -24,7 +26,7 @@ function Home() {
                     <div className="hero-sec-inner">
                     <h1 className="text-9xl main-heading">
                         <TextAnimate animation="blurInUp" by="character" duration="1">
-                            Initio'25
+                            INITIO'25
                         </TextAnimate>
                     </h1>
                     <h1 className="text-3xl main-tag">
@@ -32,6 +34,11 @@ function Home() {
                             The Fest You'll Remember Forever
                         </TextAnimate>
                     </h1>
+                    <div className="dates">
+                    <CalendarTodayRoundedIcon sx={{
+                        color: "white"
+                    }}/> <AnimatedGradientText speed="1.5" colorTo="#d9ef83ff" colorFrom="#eab308">14-15 Nov'25</AnimatedGradientText>
+                    </div>
                     <br />
                     <h1 className="text-xl grab">Grab your passes</h1>
                     <br />

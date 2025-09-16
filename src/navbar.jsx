@@ -18,7 +18,7 @@ function NavBar({setPage}) {
 
   return (
     <div className="nav-bar">
-      <div className="nav-bar-item logo"><AnimatedGradientText colorFrom="#9f1239">Initio'25</AnimatedGradientText></div>
+      <div className="nav-bar-item logo"><AnimatedGradientText colorFrom="#9f1239">INITIO'25</AnimatedGradientText></div>
       <div className="nav-bar-items">
         <div
           className="nav-bar-item"
