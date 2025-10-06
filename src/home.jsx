@@ -38,7 +38,7 @@ function Home() {
                     <CalendarTodayRoundedIcon sx={{
                         color: "white",
                         fontSize: "30px"
-                    }}/> <AnimatedGradientText speed="1.5" colorTo="#d9ef83ff" colorFrom="#eab308">14ᵗʰ-15ᵗʰ Nov'25</AnimatedGradientText>
+                    }}/> <AnimatedGradientText speed="1.5" colorTo="#d9ef83ff" colorFrom="#eab308">15ᵗʰ-16ᵗʰ Nov'25</AnimatedGradientText>
                     </div>
                     <br />
                     <h1 className="text-xl grab">Grab your passes</h1>
