@@ -51,7 +51,7 @@ function Home() {
                             <AlertDialogHeader>
                             <AlertDialogTitle>For VIPS students</AlertDialogTitle>
                             <AlertDialogDescription>
-                                Kindly pay in <b>cash</b> at the <b>Initio kiosk in VIPS-TC</b> to collect your participation form and ticket.
+                                Kindly pay in <b>cash</b> at the <b>Initio kiosk in VIPS-TC</b> to collect your participation form and pass.
                             </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
