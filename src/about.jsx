@@ -1,10 +1,12 @@
 import "./about.css";
 import { TextAnimate } from "@/components/magicui/text-animate";
+import NavBar from "./navbar";
 
 
 function AboutUs() {
   return (
     <>
+        <NavBar active={3} />
         <div style={{height: "60px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
         <div className="about-page">
             <h1 className="text-6xl about-heading">

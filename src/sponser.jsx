@@ -1,3 +1,4 @@
+import NavBar from "./navbar";
 import "./sponser.css";
 import { TextAnimate } from "@/components/magicui/text-animate";
 
@@ -19,6 +20,7 @@ function SponserPage() {
     const resolveLogoUrl = (entry) => entry.url ?? logoMap[`/src/assets/${entry.file}`];
     return (
         <>
+            <NavBar active={2} />
             <div style={{height: "60px", backgroundColor: "#2f0353"}}>{/* for spacing only */}</div>
             <div className="sponser-page">
                 <div>

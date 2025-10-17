@@ -1,0 +1,14 @@
+.event-page {
+    background-color: #2f0353;
+    min-height: 100vh;
+}
+
+.event-card-title {
+    color: black;
+    font-weight: 700;
+}
+
+.sponser-grid a:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}

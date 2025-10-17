@@ -1,8 +1,11 @@
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import "./events.css";
 
 function Events() {
+    const navigator = useNavigate();
+
     return (
         <>
             <div className="event-section">
@@ -59,12 +62,15 @@ function Events() {
                     </div>
                 </div>
                 <div className="cta-wrap">
-                    {/* <button className="px-6 py-3 rounded-full text-white"
+                    <button className="px-6 py-3 rounded-full text-white"
                         style={{
                             background: "linear-gradient(90deg,#22a6f2,#ff63c3)",
                             boxShadow: "0 8px 24px rgba(77, 171, 245, 0.35)",
                         }}
-                    >Explore All Events</button> */}
+                        onClick={() => {
+                            navigator('/events');
+                        }}
+                    >Explore All Events</button>
                 </div>
             </div>
         </>

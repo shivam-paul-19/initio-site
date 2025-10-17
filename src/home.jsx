@@ -16,10 +16,12 @@ import {
 } from "@/components/ui/alert-dialog"
 import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
 import { TextAnimate } from "@/components/magicui/text-animate";
+import NavBar from "./navbar";
 
 function Home() {
     return (
         <>
+            <NavBar active={0}/>
             <div className="home-page">
                 <div className="hero-sec">
                     <div className="hero-filter">

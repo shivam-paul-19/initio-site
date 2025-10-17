@@ -1,17 +1,9 @@
 import "./navbar.css";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
 
-function NavBar({setPage}) {
-  let [active, setActive] = useState([true, false, false, false]);
-
-  const changePages = (idx) => {
-    let newArr = [false, false, false, false];
-    newArr[idx] = true;
-    setActive(newArr);
-    setPage(newArr);
-  }
-
+function NavBar({active}) {
+  const navigator = useNavigate();
   const activeStyle = {
     fontWeight: 900,
   };
@@ -22,36 +14,45 @@ function NavBar({setPage}) {
       <div className="nav-bar-items">
         <div
           className="nav-bar-item"
-          style={active[0] ? activeStyle : null}
+          style={active == 0 ? activeStyle : null}
           onClick={() => {
-            changePages(0);
+            navigator('/');
           }}
         >
           Home
         </div>
         <div
           className="nav-bar-item"
-          style={active[1] ? activeStyle : null}
+          style={active == 1 ? activeStyle : null}
           onClick={() => {
-            changePages(1);
+            navigator('/events');
+          }}
+        >
+          Events
+        </div>
+        <div
+          className="nav-bar-item"
+          style={active == 2 ? activeStyle : null}
+          onClick={() => {
+            navigator('/sponsors');
           }}
         >
           Sponsors
         </div>
         <div
           className="nav-bar-item"
-          style={active[2] ? activeStyle : null}
+          style={active == 3 ? activeStyle : null}
           onClick={() => {
-            changePages(2);
+            navigator('/about');
           }}
         >
           About us
         </div>
         <div
           className="nav-bar-item"
-          style={active[3] ? activeStyle : null}
+          style={active == 4 ? activeStyle : null}
           onClick={() => {
-            changePages(3);
+            navigator('/contact');
           }}
         >
           Contact us

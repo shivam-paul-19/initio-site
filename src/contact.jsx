@@ -1,9 +1,11 @@
 import "./contact.css";
 import { TextAnimate } from "@/components/magicui/text-animate";
+import NavBar from "./navbar";
 
 function Contactus() {
   return (
     <>
+      <NavBar active={4} />
       <div style={{ height: "60px", backgroundColor: "#2f0353" }}>
         {/* for spacing only */}
       </div>
