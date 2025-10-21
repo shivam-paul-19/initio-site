@@ -4,11 +4,53 @@
 }
 
 .event-card-title {
-    color: black;
+    color: white;
     font-weight: 700;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.register {
+    display: none;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .sponser-grid a:hover {
     transform: scale(1.1);
     transition-duration: 300ms;
+}
+
+.event-card {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.event-card:hover {
+    height: 300px;
+    position: absolute;
+    width: 100%;
+}
+
+.event-card:hover .register {
+    display: block;
+}
+
+.filter {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.filter:hover {
+    background-color: rgba(0,0,0,0.5);
 }
