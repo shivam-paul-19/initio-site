@@ -20,6 +20,7 @@ import shaam from "./assets/events/shaam.png";
 import delph from "./assets/events/delph.png";
 import eph from "./assets/events/eph.png";
 import prak from "./assets/events/prak.png";
+import mind from "./assets/events/mind.png";
 
 function EventPage() {
     let events = [{
@@ -111,6 +112,11 @@ function EventPage() {
             name: "Ray-S: a film fest",
             link: "https://forms.gle/cWKqL472jrayTWGP8",
             image: ray
+        },
+        {
+            name: "Mind your biz",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSfFuz10GRELgJfDIb6l1sp67uJZIvQKZT4DV00_NX3QAS6htA/viewform?usp=header",
+            image: mind
         }
     ]
   return (
