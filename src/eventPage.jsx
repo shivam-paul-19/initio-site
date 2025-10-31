@@ -85,7 +85,7 @@ function EventPage() {
         },
         {
             name: "Beatdown Battle",
-            link: "https://docs.google.com/forms/d/1j4X7CnWtqO9HLO27YBIyPBuTRW6SETZvRhbGeMrHXyI/edit?usp=sharing_eip_se_dm&ts=68e812d0",
+            link: "https://docs.google.com/forms/d/1a9VUvkI5ralyKsus7u_O6DLLAkuqHegOZ-1lnwKR95Q/viewform?pli=1&ts=68fd12c9&pli=1&edit_requested=true",
             image: beat
         },
         {
