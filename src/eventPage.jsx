@@ -75,7 +75,7 @@ function EventPage() {
         },
         {
             name: "Battle of Bands",
-            link: "https://docs.google.com/forms/d/e/1FAIpQLSdXWoOOxKEVck0u9hD1p4TAS8Aqa1XE_1WuqZrPKTlW7mpuuw/viewform?usp=header",
+            link: "https://forms.gle/DxmnyZL1yHwBP3Ey9",
             image: bands
         },
         {
