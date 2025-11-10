@@ -133,7 +133,7 @@ function EventPage() {
                 <div className="sponser-grid">
                     {events.map((s) => (
                         <a href={s.link} target='_blank'>
-                            <div key={s.name} className="event-card" style={{
+                            <div key={s.name} className="event-page-card" style={{
                                 backgroundImage: `url(${s.image || logo})`,
                                 backgroundSize: "cover"
                             }}>

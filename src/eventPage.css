@@ -23,28 +23,29 @@
     transition-duration: 300ms;
 }
 
-.event-card {
+.event-page-card {
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
     padding: 0 !important;
-}
+} 
 
-.event-card:hover {
+.event-page-card:hover {
     height: 350px;
     position: absolute;
     width: 100%;
 }
 
-.event-card:hover .event-card-title {
+.event-page-card:hover .event-card-title {
     background-color: rgba(0,0,0,0.2);
     padding: 10px;
     border-radius: 20px;
     backdrop-filter: blur(5px);
 }
 
-.event-card:hover .register {
+.event-page-card:hover .register {
     display: block;
 }
 
