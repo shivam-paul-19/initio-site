@@ -43,7 +43,7 @@ function Home() {
                     }}/> <AnimatedGradientText speed="1.5" colorTo="#d9ef83ff" colorFrom="#eab308">1ˢᵗ-2ⁿᵈ Feb'26</AnimatedGradientText>
                     </div>
                     <br />
-                    <h1 className="text-xl grab">Grab your passes</h1>
+                    <h1 className="text-xl grab">Registrations are live now!</h1>
                     <br />
                     <AlertDialog>
                         <AlertDialogTrigger>
