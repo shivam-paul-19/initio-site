@@ -45,7 +45,7 @@ function Home() {
                     <br />
                     <h1 className="text-xl grab">Registrations are live now!</h1>
                     <br />
-                    <AlertDialog>
+                    {/* <AlertDialog>
                         <AlertDialogTrigger>
                         <Button className="pass-but"><AnimatedGradientText speed="1.5" colorTo="#2f0353" colorFrom="#c084fc">For VIPS students</AnimatedGradientText></Button>
                         </AlertDialogTrigger>
@@ -63,9 +63,9 @@ function Home() {
                                 </AlertDialogCancel>
                             </AlertDialogFooter>
                         </AlertDialogContent>
-                    </AlertDialog>
+                    </AlertDialog> */}
                     <br />
-                        <a href="https://forms.gle/zDhKHdpYJXJrNzpm9" target="_blank"><Button className="pass-but"><AnimatedGradientText speed="1.5" colorTo="#2f0353" colorFrom="#c084fc">For Non-VIPS students</AnimatedGradientText></Button></a>
+                        <a href="https://form.qfixonline.com/initio" target="_blank"><Button className="pass-but"><AnimatedGradientText speed="1.5" colorTo="#2f0353" colorFrom="#c084fc">Register here!</AnimatedGradientText></Button></a>
                     </div>
                     </div>
                 </div>
