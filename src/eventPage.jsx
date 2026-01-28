@@ -43,31 +43,31 @@ function EventPage() {
             link: "https://forms.gle/RFZGoyky4itx7mBw6",
             image: bidingImg
         },
-        {
-            name: "FinVault",
-            link: "https://forms.gle/dJQk4v1uzhSyWx9w6",
-            image: finvault
-        },
+        // {
+        //     name: "FinVault",
+        //     link: "https://forms.gle/dJQk4v1uzhSyWx9w6",
+        //     image: finvault
+        // },
         {
             name: "Shark Tank: A Business Plan Competition",
             link: "https://forms.gle/3GYxesgmbngXdnv88",
             image: shark
         },
-        {
-            name: "Human Hour",
-            link: "https://docs.google.com/forms/d/e/1FAIpQLSd34pvQyCaKVGIgtGaILduSpj0ynhdgBRt_VFfw3I0UIB4vcA/viewform?usp=sharing&ouid=108258842091744500482",
-            image: human
-        },
+        // {
+        //     name: "Human Hour",
+        //     link: "https://docs.google.com/forms/d/e/1FAIpQLSd34pvQyCaKVGIgtGaILduSpj0ynhdgBRt_VFfw3I0UIB4vcA/viewform?usp=sharing&ouid=108258842091744500482",
+        //     image: human
+        // },
         {
             name: "Shaam-e-Nazm 2.0",
             link: "https://docs.google.com/forms/d/e/1FAIpQLScpft48NbLBKAiDH5GwD_vDDgV-Fh0Va-NaFsktmJ1lz83eZw/viewform?usp=dialog",
             image: shaam
         },
-        {
-            name: "Shutterbugs Photography Competition",
-            link: "https://forms.gle/b1w6MoNkqeVfSPAFA",
-            image: shuttter
-        },
+        // {
+        //     name: "Shutterbugs Photography Competition",
+        //     link: "https://forms.gle/b1w6MoNkqeVfSPAFA",
+        //     image: shuttter
+        // },
         {
             name: "Delphino Group Dance",
             link: "https://docs.google.com/forms/d/e/1FAIpQLSeYSNdHNIEqkpKpl5Irv2P5LpHyleNY0wdX0teuzoEFJY3Buw/viewform?usp=header",
@@ -83,26 +83,26 @@ function EventPage() {
             link: "https://docs.google.com/forms/d/e/1FAIpQLScKiFPn3j0_USXxBf9KtG2HOBk2CJ96fZc-DkMEvGn1hePEPQ/viewform?usp=dialog",
             image: eph
         },
-        {
-            name: "Beatdown Battle",
-            link: "https://docs.google.com/forms/d/1a9VUvkI5ralyKsus7u_O6DLLAkuqHegOZ-1lnwKR95Q/viewform?pli=1&ts=68fd12c9&pli=1&edit_requested=true",
-            image: beat
-        },
-        {
-            name: "Street Hustle",
-            link: "https://docs.google.com/forms/d/e/1FAIpQLSeOA7C9DwQ9HCDw-faDQITcMf-hzjDvEda3xHXBNPy4cfashg/viewform?usp=header",
-            image: street
-        },
+        // {
+        //     name: "Beatdown Battle",
+        //     link: "https://docs.google.com/forms/d/1a9VUvkI5ralyKsus7u_O6DLLAkuqHegOZ-1lnwKR95Q/viewform?pli=1&ts=68fd12c9&pli=1&edit_requested=true",
+        //     image: beat
+        // },
+        // {
+        //     name: "Street Hustle",
+        //     link: "https://docs.google.com/forms/d/e/1FAIpQLSeOA7C9DwQ9HCDw-faDQITcMf-hzjDvEda3xHXBNPy4cfashg/viewform?usp=header",
+        //     image: street
+        // },
         {
             name: "Vocalscape",
             link: "https://docs.google.com/forms/d/e/1FAIpQLSczm_TX-UaX4aB1aJysbd8VMhnqgrT4q4BSRXZWP-A0HrY8qg/viewform?usp=header",
             image: vocal
         },
-        {
-            name: "Prism-The Spectrum of Diwali Colors",
-            link: "https://docs.google.com/forms/d/e/1FAIpQLScOqGyQ8ZsG8noEWVz6yQL9Z47eTn_2kdd4XyOg7hxnqZoXmQ/viewform?usp=header",
-            image: prism
-        },
+        // {
+        //     name: "Prism-The Spectrum of Diwali Colors",
+        //     link: "https://docs.google.com/forms/d/e/1FAIpQLScOqGyQ8ZsG8noEWVz6yQL9Z47eTn_2kdd4XyOg7hxnqZoXmQ/viewform?usp=header",
+        //     image: prism
+        // },
         {
             name: "Prakaran",
             link: "https://forms.gle/wsuv2uWm7FP76a8R6",
