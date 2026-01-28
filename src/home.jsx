@@ -28,7 +28,7 @@ function Home() {
                     <div className="hero-sec-inner">
                     <h1 className="text-9xl main-heading">
                         <TextAnimate animation="blurInUp" by="character" duration="1">
-                            INITIO'25
+                            INITIOxEnकला
                         </TextAnimate>
                     </h1>
                     <h1 className="text-3xl main-tag">
