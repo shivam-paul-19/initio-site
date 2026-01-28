@@ -27,9 +27,9 @@ function Home() {
                     <div className="hero-filter">
                     <div className="hero-sec-inner">
                     <h1 className="text-9xl main-heading">
-                        <TextAnimate animation="blurInUp" by="character" duration="1">
+                        {/* <TextAnimate animation="blurInUp" by="character" duration="1"> */}
                             INITIOxEnकला
-                        </TextAnimate>
+                        {/* </TextAnimate> */}
                     </h1>
                     <h1 className="text-3xl main-tag">
                         <TextAnimate animation="slideUp" by="character" duration="0.5">
