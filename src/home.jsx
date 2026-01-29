@@ -17,6 +17,7 @@ import {
 import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import NavBar from "./navbar";
+import logo from "./assets/logo_enkala.png"
 
 function Home() {
     return (
@@ -26,16 +27,17 @@ function Home() {
                 <div className="hero-sec">
                     <div className="hero-filter">
                     <div className="hero-sec-inner">
-                    <h1 className="text-9xl main-heading">
-                        {/* <TextAnimate animation="blurInUp" by="character" duration="1"> */}
-                            INITIOxEnकला
-                        {/* </TextAnimate> */}
-                    </h1>
-                    <h1 className="text-3xl main-tag">
-                        <TextAnimate animation="slideUp" by="character" duration="0.5">
-                            The Fest You'll Remember Forever
-                        </TextAnimate>
-                    </h1>
+                        {/* <h1 className="text-9xl main-heading"> */}
+                            {/* <TextAnimate animation="blurInUp" by="character" duration="1"> */}
+                                {/* INITIOxEnकला */}
+                            {/* </TextAnimate> */}
+                        {/* </h1> */}
+                        <img className="logo_enkala" src={logo} alt="" />
+                        <h1 className="text-3xl main-tag">
+                            <TextAnimate animation="slideUp" by="character" duration="0.5">
+                                The Fest You'll Remember Forever
+                            </TextAnimate>
+                        </h1>
                     <div className="dates">
                     <CalendarTodayRoundedIcon sx={{
                         color: "white",

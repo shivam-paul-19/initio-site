@@ -10,6 +10,13 @@
     word-break: keep-all;
 }
 
+.logo_enkala {
+    height: clamp(80px, 15vw, 200px);
+    width: auto;
+    max-width: 90%;
+    object-fit: contain;
+}
+
 .main-tag {
     font-family: "Bodoni Moda", serif;
     color: white;
@@ -74,6 +81,10 @@
     .main-tag {
         font-size: 20px;
     }
+
+    .logo_enkala {
+        height: 100px;
+    }
 }
 
 @media (max-width: 530px) {
@@ -88,6 +99,10 @@
     .main-tag {
         font-size: 15px;
     }
+
+    .logo_enkala {
+        height: 80px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -101,5 +116,9 @@
 
     .main-tag {
         font-size: 10px;
+    }
+
+    .logo_enkala {
+        height: 60px;
     }
 }
