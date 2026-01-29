@@ -65,7 +65,7 @@ function Home() {
                         </AlertDialogContent>
                     </AlertDialog> */}
                     <br />
-                        <a href="https://form.qfixonline.com/initio" target="_blank"><Button className="pass-but"><AnimatedGradientText speed="1.5" colorTo="#2f0353" colorFrom="#c084fc">Register here!</AnimatedGradientText></Button></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8wyW9BbhubVLDC0CA5R80HEe_BKrBmkjLMdJw-36XszuSSQ/viewform?usp=dialog" target="_blank"><Button className="pass-but"><AnimatedGradientText speed="1.5" colorTo="#2f0353" colorFrom="#c084fc">Register here!</AnimatedGradientText></Button></a>
                     </div>
                     </div>
                 </div>
