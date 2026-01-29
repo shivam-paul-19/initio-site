@@ -98,11 +98,11 @@ function EventPage() {
             link: "https://docs.google.com/forms/d/e/1FAIpQLSczm_TX-UaX4aB1aJysbd8VMhnqgrT4q4BSRXZWP-A0HrY8qg/viewform?usp=header",
             image: vocal
         },
-        // {
-        //     name: "Prism-The Spectrum of Diwali Colors",
-        //     link: "https://docs.google.com/forms/d/e/1FAIpQLScOqGyQ8ZsG8noEWVz6yQL9Z47eTn_2kdd4XyOg7hxnqZoXmQ/viewform?usp=header",
-        //     image: prism
-        // },
+        {
+            name: "Prism-The Spectrum of Diwali Colors",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLScOqGyQ8ZsG8noEWVz6yQL9Z47eTn_2kdd4XyOg7hxnqZoXmQ/viewform?usp=header",
+            image: prism
+        },
         {
             name: "Prakaran",
             link: "https://forms.gle/wsuv2uWm7FP76a8R6",
